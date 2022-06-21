@@ -1,0 +1,28 @@
+¨* {
+    text-align: center;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+    .inputs {
+        width: 30%;
+        background: rgb(160, 213, 231);
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        text-align: center;
+        align-items: center;
+        margin: 4px;
+  
+    }
+
+    
+ .boton {
+    width: 30%;
+    background: #054be2;
+    border: none;
+    padding: 12px;
+    align-items: center;
+    
+ }

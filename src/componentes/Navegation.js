@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme: Theme) =>
     root: {
       width: '100%',
       maxWidth: 360,
-      minHeight: "95vh",
+      /* minHeight: "95vh", */
       backgroundColor: "#dfdfdf",
     },
     nested: {
@@ -50,19 +50,19 @@ export default function NestedList() {
         <ListItemIcon>
           <SendIcon />
         </ListItemIcon>
-        <ListItemText primary="Home" />
+        <ListItemText primary="poquemons" />
       </ListItem>
       <ListItem button>
         <ListItemIcon>
           <DraftsIcon />
         </ListItemIcon>
-        <ListItemText primary="Proyectos" />
+        
       </ListItem>
       <ListItem button onClick={handleClick}>
         <ListItemIcon>
           <InboxIcon />
         </ListItemIcon>
-        <ListItemText primary="Mis datos" />
+        <ListItemText primary="Mis poquemons" />
         {open ? <ExpandLess /> : <ExpandMore />}
       </ListItem>
       <Collapse in={open} timeout="Mis datos" unmountOnExit>
@@ -71,7 +71,8 @@ export default function NestedList() {
             <ListItemIcon>
               <StarBorder />
             </ListItemIcon>
-            <ListItemText primary="Starred" />
+            <ListItemText primary="bulbasaur" />
+            <ListItemText primary="charmander" />
           </ListItem>
         </List>
       </Collapse>

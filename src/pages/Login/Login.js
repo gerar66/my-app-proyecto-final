@@ -24,7 +24,6 @@ function Login() {
             url: 'https://reqres.in/api/users',
             data: {
               
-              
                 "email":"dddddd333@gmail.com",
                 "password":"farganxwq23"
             }

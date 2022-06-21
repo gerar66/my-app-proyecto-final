@@ -28,7 +28,7 @@ const Navbar = () => {
             </IconButton>
             
             <Typography variant='h6' className={classes.title}>
-                footer
+            Poke Web
             </Typography>
             <Button variant='text' color='inherit'>
             login
